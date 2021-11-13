@@ -28,7 +28,7 @@ import com.aliucord.Utils
 class TextReact : Plugin() {
     @SuppressLint("SetTextI18n")
     override fun start(context: Context) {
-        val icon = ContextCompat.getDrawable(context, R.d.ic_keyboard_black_24dp)
+        val icon = ContextCompat.getDrawable(context, R.e.ic_keyboard_black_24dp)
         val textReactId = View.generateViewId()
 
         with(WidgetChatListActions::class.java, {
